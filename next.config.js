@@ -5,7 +5,7 @@ const withPWA = require('next-pwa');
 const webpack = require('webpack');
 
 const isProduction = process.env.NODE_ENV === 'production';
-const prefix = isProduction ? '/bumperballs' : '';
+const prefix = isProduction ? '' : '';
 
 const envVariables = {
   AIRTABLE_APP: process.env.AIRTABLE_APP,

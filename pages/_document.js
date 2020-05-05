@@ -27,17 +27,14 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="manifest" href={`${prefix}/manifest.json`} />
 
-          <meta name="application-name" content="Westerling &amp; MacLean" />
+          <meta name="application-name" content="Mee van de winkel" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
             content="default"
           />
-          <meta
-            name="apple-mobile-web-app-title"
-            content="Westerling &amp; MacLean"
-          />
-          <meta name="description" content="Westerling &amp; MacLean" />
+          <meta name="apple-mobile-web-app-title" content="Mee van de winkel" />
+          <meta name="description" content="Mee van de winkel" />
           <meta name="format-detection" content="telephone=no" />
           <meta name="mobile-web-app-capable" content="yes" />
           {/* <meta
@@ -81,23 +78,26 @@ export default class MyDocument extends Document {
 /> */}
 
           <meta name="twitter:card" content="summary" />
-          <meta name="twitter:url" content="https://bumperballs.be" />
-          <meta name="twitter:title" content="Westerling &amp; MacLean" />
-          <meta name="twitter:description" content="Westerling &amp; MacLean" />
+          <meta
+            name="twitter:url"
+            content="https://mee-van-de-winkel.web.app"
+          />
+          <meta name="twitter:title" content="Mee van de winkel" />
+          <meta name="twitter:description" content="Mee van de winkel" />
           <meta
             name="twitter:image"
-            content="https://bumperballs.be/android-chrome-192x192.png"
+            content="https://mee-van-de-winkel.web.app/android-chrome-192x192.png"
           />
           {/*
 <meta name="twitter:creator" content="@DavidWShadow" /> */}
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Westerling &amp; MacLean" />
-          <meta property="og:description" content="Westerling &amp; MacLean" />
-          <meta property="og:site_name" content="Westerling &amp; MacLean" />
-          <meta property="og:url" content="https://bumperballs.be" />
+          <meta property="og:title" content="Mee van de winkel" />
+          <meta property="og:description" content="Mee van de winkel" />
+          <meta property="og:site_name" content="Mee van de winkel" />
+          <meta property="og:url" content="https://mee-van-de-winkel.web.app" />
           <meta
             property="og:image"
-            content="https://bumperballs.be/apple-touch-icon.png"
+            content="https://mee-van-de-winkel.web.app/apple-touch-icon.png"
           />
           {/* Step 5: Output the styles in the head  */}
           {this.props.styleTags}

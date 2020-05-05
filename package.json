@@ -1,5 +1,5 @@
 {
-  "name": "bumperballs",
+  "name": "mee-van-de-winkel",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,25 +7,29 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next export && mv .next/sw.js out/sw.js && mv .next/workbox* out"
+    "deploy": "next build && next export && mv .next/sw.js out/sw.js && mv .next/workbox* out && firebase deploy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThomasAndrewMacLean/bumperballs.git"
+    "url": "git+https://github.com/ThomasAndrewMacLean/mee-van-de-winkel.git"
+  },
+  "engines": {
+    "node": "8"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ThomasAndrewMacLean/bumperballs/issues"
+    "url": "https://github.com/ThomasAndrewMacLean/mee-van-de-winkel/issues"
   },
-  "homepage": "https://github.com/ThomasAndrewMacLean/bumperballs#readme",
+  "homepage": "https://github.com/ThomasAndrewMacLean/mee-van-de-winkel#readme",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "airtable": "^0.8.1",
     "babel-plugin-styled-components": "^1.10.7",
     "dayjs": "^1.8.24",
     "dotenv": "^8.2.0",
+    "firebase": "^7.14.2",
     "marked": "^0.8.2",
     "next": "^9.3.3",
     "next-pwa": "^2.3.3",
