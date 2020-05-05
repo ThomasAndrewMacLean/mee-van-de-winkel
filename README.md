@@ -1,4 +1,6 @@
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ThomasAndrewMacLean/mee-van-de-winkel.svg)](https://greenkeeper.io/)
+
 Create a airtable, with base NEXT, columns id and NL
 add keys to .env (and to github secrets)
 
