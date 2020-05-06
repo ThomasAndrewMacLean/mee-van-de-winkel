@@ -32,3 +32,4 @@ export const signInWithGoogle = () => {
 };
 
 export const addToArray = firebase.firestore.FieldValue.arrayUnion;
+export const removeFromArray = firebase.firestore.FieldValue.arrayRemove;

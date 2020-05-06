@@ -2,7 +2,7 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
     match /{document=**} {
-  allow read, write: if request.auth.uid in ["Hhq0r3OtriePWvuADBtFf09MGZv1"];
+        allow read, write: if request.auth.uid in ["Hhq0r3OtriePWvuADBtFf09MGZv1", "trR1RfjUG0dQM4w0zyvVVsKMIDx1"];
       }
   }
 }
