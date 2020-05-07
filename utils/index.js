@@ -38,6 +38,18 @@ export const getEmoji = (word) => {
   if (word.includes('bier')) {
     return '🍺';
   }
+  if (word.includes('worst')) {
+    return '🌭';
+  }
+  if (word.includes('toilet')) {
+    return '🧻';
+  }
+    if (word.includes('noedels')) {
+    return '🍜';
+  }
+  if (word.includes('wc')) {
+    return '🧻';
+  }
   if (word.includes('pint')) {
     return '🍻';
   }
